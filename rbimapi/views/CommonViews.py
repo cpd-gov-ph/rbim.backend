@@ -34,9 +34,9 @@ class DatareviewerNameListAPIViews(generics.ListAPIView):
     serializer_class    = UserNameSerializer
     def get(self, request, barangay_id):
         try:
-            user_obj     = Users.objects.filter(role = "data_reviewer").filter(deleted_at__isnull=True)
+            user_obj     = Users.objects.filter(role = "data_reviewer").filter(barangay_id = barangay_id).filter(deleted_at__isnull=True)
             if barangay_id == constants.LIST_ALL:
-                user_obj     = Users.objects.filter(role = "data_reviewer").filter(barangay_id = barangay_id).filter(deleted_at__isnull=True)
+                user_obj     = Users.objects.filter(role = "data_reviewer").filter(deleted_at__isnull=True)
             serializer = self.get_serializer(user_obj , many=True)
             return Response({
                 "status":1,
