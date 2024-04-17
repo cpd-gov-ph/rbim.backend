@@ -42,3 +42,4 @@ NOTIFICATION_CLEAR_MSG = "Notification successfully cleared"
 NOTIFICATION_DELETE_MSG = "Notification deleted successfully"
 OCR_FILE_EXTENSION = ["jpg", "jpeg", "png"]
 SURVEY_REPORT_SELECT_ERROR_MSG = "Please select the survey you want to download"
+LIST_ALL = "0cc159cd881c41f183d89119e47dcef9"
