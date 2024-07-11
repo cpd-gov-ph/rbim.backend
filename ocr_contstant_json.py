@@ -1070,7 +1070,7 @@ constant_json = {
               ]
             },
             {
-              "title": "46. Do you own or amortize this lot occupied by your house hold or do you rent it, do you occupy it rent-free with consent of owner or rent-free without consent of owner?",
+              "title": "46. Do you own or amortize this lot occupied by your household or do you rent it, do you occupy it rent-free with consent of owner or rent-free without consent of owner?",
               "qno" : "Q46",
               "is_required": True,
               "is_read_only": False,
@@ -1203,7 +1203,7 @@ constant_json = {
               ]
             },
             {
-              "title": "49. What is the household’s main source of drinking work?",
+              "title": "49. What is the household’s main source of drinking water?",
               "qno" : "Q49",
               "is_required": True,
               "is_read_only": False,
@@ -1779,7 +1779,7 @@ member_json = {
                   "anscount": 0,
                   "questions": [
                     {
-                      "title": "1.Who are the members of the household starting from the HH head?",
+                      "title": "1.What is the name of the household member? (start from the HH head)",
                       "qno" : "Q1",
                       "is_required": True,
                       "is_read_only": False,
@@ -2103,7 +2103,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": "10. What is ___ ‘s ethnicity or is ___ a tagalog, Bicalona, Bisaya, etc ?",
+                      "title": "10. What is ___ ‘s ethnicity or is ___ a tagalog, Bicolana, Bisaya, etc ?",
                       "qno" : "Q10",
                       "is_required": True,
                       "is_read_only": False,
@@ -2465,7 +2465,7 @@ member_json = {
               "page": 3,
               "section": [
                 {
-                  "section_name": "FOR 0 TO 11 MONTH OLD",
+                  "section_name": "FOR 0 TO 11 MONTHS OLD",
                   "is_subheader": False,
                   "position": 10,
                   "qcount": 3,
@@ -2864,7 +2864,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": "27. What facility did ____ visited in the past 12 months ?",
+                      "title": "27. What facility did ____ visit in the past 12 months ?",
                       "qno" : "Q27",
                       "is_required": True,
                       "is_read_only": False,
@@ -2968,7 +2968,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": "29. Is there a member of the HH that has any disability? What is the disability ?",
+                      "title": "29. Does the household member have any disability/ies? What is the disability ?",
                       "qno" : "Q29",
                       "is_required": True,
                       "is_read_only": False,
@@ -3142,7 +3142,7 @@ member_json = {
                   "anscount": 0,
                   "questions": [
                     {
-                      "title": "33. In what barangay and city / municipality did ____ reside  five years ago ?",
+                      "title": "33. In what city / municipality did ____ reside  five years ago ?",
                       "qno" : "Q33",
                       "is_required": True,
                       "is_read_only": False,
@@ -3185,7 +3185,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": "34. In what barangay and city / municipality did ____ reside six month ago ?",
+                      "title": "34. In what barangay and city / municipality did ____ reside six months ago ?",
                       "qno" : "Q34",
                       "is_required": True,
                       "is_read_only": False,
@@ -3355,7 +3355,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": "38. What are the reason’s why ____ left his/her previous residence ?",
+                      "title": "38. What are the reasons why ____ left his/her previous residence ?",
                       "qno" : "Q38",
                       "is_required": True,
                       "is_read_only": False,
