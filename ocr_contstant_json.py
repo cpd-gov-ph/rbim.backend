@@ -2269,7 +2269,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": "14. In what barangay and city / municipality is ___ currently atttending school?",
+                      "title": "14. In what city / municipality is ___ currently atttending school?",
                       "qno" : "Q14",
                       "is_required": True,
                       "is_read_only": False,
@@ -2423,7 +2423,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": " 18. In what barangay and city / municipality is ___’s work/business located ?",
+                      "title": " 18. In what city / municipality is ___’s work/business located ?",
                       "qno" : "Q18",
                       "is_required": True,
                       "is_read_only": False,
@@ -3228,7 +3228,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": "35. How long is ____ been staying in this barangay ? No. of years / No.of months ?",
+                      "title": "35. How long is ____ been staying in this barangay ? No. of years / No. of months ?",
                       "qno" : "Q35",
                       "is_required": True,
                       "is_read_only": False,
@@ -3498,7 +3498,7 @@ member_json = {
                       ]
                     },
                     {
-                      "title": "40. What are the reason’s why ____ transferred in this barangay?",
+                      "title": "40. What are the reasons why ____ transferred in this barangay?",
                       "qno" : "Q40",
                       "is_required": True,
                       "is_read_only": False,
