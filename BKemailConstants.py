@@ -1,6 +1,6 @@
 EMAIL_TEMPLATE="dynamic_template.html"
 
-SUBJECT_ONBOARD="Welcome to RBIM! Let's get started your account."
+SUBJECT_ONBOARD="Welcome to RBIM! Let's get started with your account."
 EMAIL_MESSAGE_ONBOARD='''\
 <p>Hi <b>{}</b>,</p>
 <p>Your RBIM account has been created for the role of <b>{}</b>.</p>
@@ -51,30 +51,30 @@ Please contact the admin for more details at example@rbim.com
 
 
 
-SUBJECT_DC_COMPLETE_SURVEY="RBIM - You have successfully completed your survey and submitted to a DR"
+SUBJECT_DC_COMPLETE_SURVEY="RBIM - You have successfully completed your survey and submitted to a Reviewer"
 EMAIL_MESSAGE_DC_COMPLETE_SURVEY='''\
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Hi {},</p>
-<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">You have successfully completed your survey and submitted to a DR. </p>
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">You have successfully completed your survey and submitted to a Reviewer. </p>
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Please wait for a few days to get the survey approval.</p>
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Survey #: {}</p>
 '''
 NT_MESSAGE_DC_COMPLETE_SURVEY='''\
 Hi {},
-You have successfully completed your survey and submitted to a DR. 
+You have successfully completed your survey and submitted to a Reviewer. 
 Please wait for a few days to get the survey approval.
 Survey #: {}
 '''
 
-SUBJECT_DR_COMPLETE_SURVEY="RBIM - You have successfully completed your survey and submitted to a BO"
+SUBJECT_DR_COMPLETE_SURVEY="RBIM - You have successfully completed your survey and submitted to an Approver"
 EMAIL_MESSAGE_DR_COMPLETE_SURVEY='''\
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Hi {},</p>
-<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">You have successfully competed approving the survey and submitted to a BO.</p>
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">You have successfully competed approving the survey and submitted to an Approver.</p>
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Please wait for a few days to get your survey approved. </p>
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Survey #: {}</p>
 '''
 NT_MESSAGE_DR_COMPLETE_SURVEY='''\
 Hi {},
-You have successfully competed approving the survey and submitted to a BO.
+You have successfully competed approving the survey and submitted to an Approver.
 Please wait for a few days to get your survey approved. 
 Survey #: {}
 '''
@@ -94,53 +94,53 @@ If in case there are any changes in the data given you'll be intimated to make c
 Survey #: {}
 '''
 
-SUBJECT_BO_APPROVED_SURVEY="RBIM - Your survey has been approved by the BO."
+SUBJECT_BO_APPROVED_SURVEY="RBIM - Your survey has been approved."
 EMAIL_MESSAGE_BO_APPROVED_SURVEY='''\
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Hi {},</p>
-<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Your survey has been approved by the BO. </p>
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Your survey has been approved. </p>
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Survey #: {}</p>
 '''
 NT_MESSAGE_BO_APPROVED_SURVEY='''\
 Hi {},
-Your survey has been approved by the BO. 
+Your survey has been approved. 
 Survey #: {}
 '''
 
-SUBJECT_DR_APPROVED_SURVEY="RBIM - Your survey has been approved by the DR."
+SUBJECT_DR_APPROVED_SURVEY="RBIM - Your survey has been approved by the Reviewer."
 EMAIL_MESSAGE_DR_APPROVED_SURVEY='''\
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Hi {},</p>
-<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Your survey has been approved by the DR. </p>
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Your survey has been approved by the Reviewer. </p>
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Survey #: {}</p>
 '''
 NT_MESSAGE_DR_APPROVED_SURVEY='''\
 Hi {},
-Your survey has been approved by the DR.
+Your survey has been approved by the Reviewer.
 Survey #: {}
 '''
 
 
-SUBJECT_DR_REJECTED_SURVEY="RBIM - unfortunately your survey has been rejected by the DR for further correction"
+SUBJECT_DR_REJECTED_SURVEY="RBIM - unfortunately your survey has been rejected by the Reviewer for further correction"
 EMAIL_MESSAGE_DR_REJECTED_SURVEY='''\
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Hi {},</p>
-<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">unfortunately your survey has been rejected by the DR for further correction. Please check your dashboard for recorrection survey to view the rejected survey.</p>
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">unfortunately your survey has been rejected by the Reviewer for further correction. Please check your dashboard for recorrection survey to view the rejected survey.</p>
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Survey #: {}</p>
 '''
 NT_MESSAGE_DR_REJECTED_SURVEY='''\
 Hi {},
-unfortunately  your survey has been rejected by the DR for further correction. Please check your dashboard for recorrection survey to view the rejected survey.
+unfortunately  your survey has been rejected by the Reviewer for further correction. Please check your dashboard for recorrection survey to view the rejected survey.
 Survey #: {}
 '''
 
 
-SUBJECT_BO_REJECTED_SURVEY="RBIM - unfortunately your survey has been rejected by the BO for further correction"
+SUBJECT_BO_REJECTED_SURVEY="RBIM - unfortunately your survey has been rejected by the Approver for further correction"
 EMAIL_MESSAGE_BO_REJECTED_SURVEY='''\
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Hi {},</p>
-<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">unfortunately your survey has been rejected by the BO for further correction. Please check your dashboard for recorrection survey to view the rejected survey. In case the survey needs to be updated, please reject it and assign a DC for further changes.</p>
+<p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">unfortunately your survey has been rejected by the Approver for further correction. Please check your dashboard for recorrection survey to view the rejected survey. In case the survey needs to be updated, please reject it and assign a DC for further changes.</p>
 <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 21px;">Survey #: {}</p>
 '''
 NT_MESSAGE_BO_REJECTED_SURVEY='''\
 Hi {},
-unfortunately your survey has been rejected by the BO for further correction. Please check your dashboard for recorrection survey to view the rejected survey. In case the survey needs to be updated, please reject it and assign a DC for further changes.
+unfortunately your survey has been rejected by the Approver for further correction. Please check your dashboard for recorrection survey to view the rejected survey. In case the survey needs to be updated, please reject it and assign a DC for further changes.
 Survey #: {}
 '''
 
