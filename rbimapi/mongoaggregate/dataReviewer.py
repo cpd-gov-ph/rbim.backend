@@ -112,7 +112,10 @@ def mongo_query_data_reviewer_list(param):
                             'id': { '$ifNull': [ "$id", None ] },
                             'user_id': { '$ifNull': [ "$user_id", None ] },
                             'dob':{ '$ifNull': [ "$dob", None ] },
-                            'age': { '$dateDiff': { 'startDate': "$dob", 'endDate': "$$NOW", 'unit': "year" } },
+                            'age': { 
+                                '$divide': [{'$subtract': ["$$NOW", "$dob" ] }, 
+                                        (365 * 24*60*60*1000)]
+                            },
                             'gender':{ '$ifNull': [ "$gender", None ] },
                             'phone_no':{ '$ifNull': [ "$phone_no", None ] },
                             'official_number':{ '$ifNull': [ "$official_number", None ] },
