@@ -139,12 +139,12 @@ class LocationListAPIView(APIView):
             param['skip'] = skip
             param['page_size'] = page_size
             if request.user.role == constants.USER_ROLES[1]:
-                param['match'] ={
-                    "id":request.user.location_id
-                }
-                location_obj = location_list(param)
-                location_count = 1
-            else:
+#                param['match'] ={
+#                    "id":request.user.location_id
+#                }
+#                location_obj = location_list(param)
+#                location_count = 1
+#            else:
                 match = {}
                 search_fields = ['name']
                 search_param = []
